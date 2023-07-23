@@ -1,0 +1,56 @@
+.clear-div{
+    clear: both;}
+
+.block1{
+    display: flex;
+}
+
+.block2{
+    display: flex;
+}
+
+.box1{
+    background-color: blanchedalmond;
+    width: 150px;
+    height: 100px;
+}
+
+.box2{
+
+}
+
+.one{
+    background-color: blanchedalmond;
+    width: fit-content;
+    height: fit-content;
+}
+
+.two{
+    background-color: blanchedalmond;
+    width: fit-content;
+    height: fit-content;
+}
+
+.three{
+    background-color: blanchedalmond;
+    width: fit-content;
+    height: fit-content;
+}
+
+.first{
+    background-color: blanchedalmond;
+    width: fit-content;
+    height: fit-content;
+}
+
+.second{
+    background-color: blanchedalmond;
+    width: fit-content;
+    height: fit-content;
+}
+
+.third{
+    background-color: blanchedalmond;
+    width: fit-content;
+    height: fit-content;
+}
