@@ -1,5 +1,10 @@
+body{
+    margin: 150px;
+}
 .clear-div{
-    clear: both;}
+    clear: both;
+    height: 70px;
+}
 
 .block1{
     display: flex;
@@ -7,50 +12,62 @@
 
 .block2{
     display: flex;
+
+}
+
+.all{
+    background-color: blanchedalmond;
+    width: fit-content;
+    height: fit-content;
+    font: 15px 'Dancing Script', cursive;
 }
 
 .box1{
-    background-color: blanchedalmond;
-    width: 150px;
-    height: 100px;
+    background-image: url("a.jpg");
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+    flex: 5;
+    margin-right: 70px;
 }
 
 .box2{
-
+    flex: 1;
 }
 
 .one{
-    background-color: blanchedalmond;
-    width: fit-content;
-    height: fit-content;
+    flex-direction: column;
 }
 
 .two{
-    background-color: blanchedalmond;
-    width: fit-content;
-    height: fit-content;
+    flex-direction: column;
 }
 
 .three{
-    background-color: blanchedalmond;
-    width: fit-content;
-    height: fit-content;
+    flex-direction: column;
 }
 
 .first{
-    background-color: blanchedalmond;
-    width: fit-content;
-    height: fit-content;
+    flex: 1;
 }
 
 .second{
-    background-color: blanchedalmond;
-    width: fit-content;
-    height: fit-content;
+    flex: 1;
 }
 
 .third{
-    background-color: blanchedalmond;
-    width: fit-content;
-    height: fit-content;
+    flex: 1;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.intro{
+    font-size: 40px;
+}
+
+.text{
+    font: 15px 'Dancing Script', cursive;
 }
