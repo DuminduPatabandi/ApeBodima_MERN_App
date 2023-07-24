@@ -1,62 +1,14 @@
 body{
-    margin: 150px;
+    margin: 20px 100px;
 }
+
+h3{
+    text-align: center;
+}
+
 .clear-div{
     clear: both;
-    height: 70px;
-}
-
-.block1{
-    display: flex;
-}
-
-.block2{
-    display: flex;
-
-}
-
-.all{
-    background-color: blanchedalmond;
-    width: fit-content;
-    height: fit-content;
-    font: 15px 'Dancing Script', cursive;
-}
-
-.box1{
-    background-image: url("a.jpg");
-    background-size: cover;
-    width: 700px;
-    height: 500px;
-    flex: 5;
-    margin-right: 70px;
-}
-
-.box2{
-    flex: 1;
-}
-
-.one{
-    flex-direction: column;
-}
-
-.two{
-    flex-direction: column;
-}
-
-.three{
-    flex-direction: column;
-}
-
-.first{
-    flex: 1;
-}
-
-.second{
-    flex: 1;
-}
-
-.third{
-    flex: 1;
+    height: 10px;
 }
 
 .icon{
@@ -70,4 +22,83 @@ body{
 
 .text{
     font: 15px 'Dancing Script', cursive;
+}
+
+.box{
+    background-color: #E6DFD9;
+    padding: 7px 7px;
+    border-radius: 20px;
+}
+
+.block1{
+    display: flex;
+    flex-direction: row;
+}
+
+.box1{
+    background-image: url("b.jpg");
+    background-size: cover;
+    height: 380px;
+    width: 670px;
+    margin-right: 80px;
+}
+
+.one{
+    width:170px;
+    margin: 10px 20px 30px;
+}
+
+.one-td{
+    width: 60px;
+    text-align: center;
+}
+
+.two{
+    margin-bottom: 30px;
+}
+
+.three{
+    background-color: #5C4B51;
+    padding: 0px 7px;
+    border-radius: 20px;
+    color: beige;
+    width:200px;
+    margin: 0px 10px;
+}
+
+.three-td1{
+    width: 120px;
+    text-align: center;
+}
+
+.three-td2{
+    width: 20px;
+    text-align: center;
+}
+
+.block2{
+    height: 210px;
+    display: flex;
+}
+
+.td1{
+    width: 160px;
+    height: 30px;
+    text-align: left;
+}
+
+.five{
+    margin: 0px 50px;
+    width: 400px;
+    height: 130px;
+}
+
+.td2 {
+    width: 200px;
+    height: 40px;
+    text-align: left;
+}
+
+.td3{
+    width: 30px;
 }
