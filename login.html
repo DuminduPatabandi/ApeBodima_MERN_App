@@ -2,10 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <style>
+	 body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+			text-align: center;
+        }
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-image: url("sp.jpg");
+            background-size: cover;
+            margin: 0 auto 20px;
+        }
+        .form-group {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .form-label {
+            flex: 1;
+            padding-right: 10px;
+            text-align: right;
+        }
+        .form-input {
+            flex: 2;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .sign-in-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+	</style>
 </head>
 <body>
- hello
-dddedewde
+<div class="container">
+    <div class="profile-picture"></div>
+    <p>Change Profile Pic</p>
+    <div style="height: 10px;"></div>
+
+    <table>
+        <tr>
+            <td class="form-label">First Name:</td>
+            <td><input class="form-input" type="text" id="first-name" placeholder="First Name"></td>
+        </tr>
+        <tr>
+            <td class="form-label">Last Name:</td>
+            <td><input class="form-input" type="text" id="last-name" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+            <td class="form-label">Email:</td>
+            <td><input class="form-input" type="email" id="email" placeholder="Email"></td>
+        </tr>
+        <tr>
+            <td class="form-label">Phone Number:</td>
+            <td><input class="form-input" type="tel" id="phone-number" placeholder="Phone Number"></td>
+        </tr>
+        <tr>
+            <td class="form-label">Username:</td>
+            <td><input class="form-input" type="text" id="username" placeholder="Username"></td>
+        </tr>
+        <tr>
+            <td class="form-label">Password:</td>
+            <td><input class="form-input" type="password" id="password" placeholder="Password"></td>
+        </tr>
+        <tr>
+            <td class="form-label">Confirm Password:</td>
+            <td><input class="form-input" type="password" id="confirm-password" placeholder="Confirm Password"></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+    <button class="sign-in-btn">Sign In</button>
+    <a class="login-link" href="#">Already have an account? Log in</a>
+</div>
+<br>
+<br>
 </body>
 </html>
